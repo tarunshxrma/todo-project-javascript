@@ -189,7 +189,7 @@ li{
 
     #container{
         flex-direction: column;
-        margin-left: 5rem;
+        margin-left: 7rem;
     }
     
     #tasks {
@@ -230,12 +230,13 @@ li{
     #itemForm {
         position: absolute;
         top: 45%;
-        left: 20%;
+        left: 27%;
         z-index: 10;
     }
     
     .card {
         margin-top: 5rem;
+        margin-left: 6rem;
     }
     
     #lists {
@@ -244,6 +245,22 @@ li{
         top: 17rem;
         left: 6.5rem;
         padding-bottom: 5rem;
+    }
+    
+    #backicon {
+        font-size: 3rem;
+        margin-left: -5rem;
+    }
+    
+    #backtext {
+        font-size: 3rem;
+        position: absolute;
+        top: 19px;
+        left: 3rem;
+    }
+    
+    #heading {
+        display: none;
     }
     
     }
